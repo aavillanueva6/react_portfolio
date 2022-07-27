@@ -1,14 +1,12 @@
 import React from 'react';
-import Header from './components/Header';
-import Section from './components/Section';
-import Footer from './components/Footer';
+// import Header from './components/Header';
+// import Footer from './components/Footer';
+import PortfolioContainer from './components/PortfolioContainer';
 
 export default function App() {
   return (
     <div>
-      <Header />
-      <Section />
-      <Footer />
+      <PortfolioContainer />
     </div>
   );
 }
