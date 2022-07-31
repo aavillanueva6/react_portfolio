@@ -7,7 +7,8 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('About');
+  // DONT FORGET TO CHANGE THE INITIAL USESTATE TO ABOUT!!!!!!
+  const [currentPage, setCurrentPage] = useState('Resume');
 
   // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
@@ -19,7 +20,6 @@ export default function PortfolioContainer() {
       return <About />;
     }
     if (currentPage === 'Resume') {
-      return <div>Resume</div>;
       return <Resume />;
     }
     return <div>Contact</div>;
