@@ -13,7 +13,6 @@ export default function PortfolioContainer() {
   // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
     if (currentPage === 'Portfolio') {
-      return <div>Portfolio</div>;
       return <Portfolio />;
     }
     if (currentPage === 'About') {
