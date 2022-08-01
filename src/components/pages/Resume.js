@@ -134,16 +134,18 @@ const techStack = {
 
 export default function Resume() {
   return (
-    <TechStackContainer techStack={techStack} />
-    // <div>
-    //   <div className="row">
-    //     <div className="container-fluid">
-    //       <h5 className="card-title text-center">Tech Stack</h5>
-    //       <div className="row text-light justify-content-evenly">
-    //         <TechStackCard techStack={techStack} />
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
+    <div className="ResumeContainer">
+      <p>
+        Download my{' '}
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="./assets/files/VillanuevaAlejandroResume.pdf"
+        >
+          resume
+        </a>
+      </p>
+      <TechStackContainer techStack={techStack} />
+    </div>
   );
 }

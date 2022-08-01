@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
   // DONT FORGET TO CHANGE THE INITIAL USESTATE TO ABOUT!!!!!!
-  const [currentPage, setCurrentPage] = useState('Resume');
+  const [currentPage, setCurrentPage] = useState('Portfolio');
 
   // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
