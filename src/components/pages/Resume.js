@@ -3,7 +3,7 @@ import TechStackCard from '../TechStackCard';
 import TechStackContainer from '../TechStackContainer';
 
 const techStack = {
-  name: 'Tech Stack',
+  name: 'Proficiencies',
   stacks: [
     {
       id: 1,

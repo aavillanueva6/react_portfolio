@@ -1,6 +1,12 @@
 import React from 'react';
 
 function Project(props) {
+const styles={
+  techStackCard:{
+    maxWidth:"18rem"
+  }
+}
+
   return (
     <div className="card my-2 pb-2 bg-dark text-center text-light">
       <div className="card-header fs-1">Technology Blog</div>
@@ -44,7 +50,7 @@ function Project(props) {
                   <div className="h-100 row justify-content-evenly">
                     <div
                       className="card bg-transparent border-light mb-3"
-                      style="max-width: 18rem"
+                      style={styles.techStackCard}
                     >
                       <div className="card-header">Front End</div>
                       <div className="card-body d-flex flex-wrap h-100 justify-content-center align-items-center">
@@ -61,7 +67,7 @@ function Project(props) {
                   <div className="h-100 row justify-content-evenly">
                     <div
                       className="card bg-transparent border-light mb-3"
-                      style="max-width: 18rem"
+                      // style={"maxWidth: 18rem"}
                     >
                       <div className="card-header">Back End</div>
                       <div className="card-body d-flex flex-wrap h-100 justify-content-center align-content-around align-items-center gap-0">
